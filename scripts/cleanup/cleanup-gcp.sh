@@ -15,3 +15,5 @@ gcloud iam service-accounts delete ${SERVICE_ACCOUNT_NAME}@${GCP_PROJECT_ID}.iam
 
 gcloud iam workload-identity-pools delete ${WIF_POOL_NAME} \
   --location="global" --quiet
+
+./scripts/cleanup/cleanup-operator.sh
