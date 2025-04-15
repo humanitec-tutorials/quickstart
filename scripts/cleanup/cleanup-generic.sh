@@ -1,1 +1,1 @@
-echo "Nothing to clean up - done!"
+./scripts/cleanup/cleanup-operator.sh

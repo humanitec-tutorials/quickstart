@@ -13,3 +13,5 @@ humctl delete -f azure-identity-cloudaccount.yaml
 az identity delete \
   --name ${MANAGED_IDENTITY_NAME} \
   --resource-group ${MANAGED_IDENTITY_RESOURCE_GROUP}
+
+./scripts/cleanup/cleanup-operator.sh

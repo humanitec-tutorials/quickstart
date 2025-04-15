@@ -17,3 +17,5 @@ aws iam delete-policy \
 aws iam delete-role \
   --role-name ${ROLE_NAME} \
   --region ${EKS_CLUSTER_REGION}
+
+./scripts/cleanup/cleanup-operator.sh
