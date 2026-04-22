@@ -11,7 +11,7 @@ cat <<EOF > trust-policy.json
     {
       "Effect": "Allow",
       "Principal": {
-        "AWS": "arn:aws:iam::767398028804:user/humanitec"
+        "AWS": "arn:aws:iam::360308478938:user/humanitec"
       },
       "Action": "sts:AssumeRole",
       "Condition": {
