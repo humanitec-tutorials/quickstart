@@ -3,7 +3,7 @@ aws eks delete-access-entry \
   --principal-arn ${ROLE_ARN} \
   --region ${EKS_CLUSTER_REGION}
 
-humctl delete -f aws-role-cloudaccount.yaml
+humctl delete -f aws-identity-cloudaccount.yaml
 
 aws iam detach-role-policy \
   --role-name ${ROLE_NAME} \

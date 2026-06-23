@@ -8,7 +8,7 @@ metadata:
 entity:
   name: ${CLOUD}-quickstart
   type: k8s-cluster
-  # The driver_account references a Cloud Account of type "aws-role"
+  # The driver_account references a Cloud Account of type "aws-identity"
   # which needs to be configured for your Organization.
   driver_account: ${CLOUD_ACCOUNT_ID}
   driver_type: humanitec/k8s-cluster-eks
